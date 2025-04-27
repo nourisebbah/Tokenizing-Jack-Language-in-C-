@@ -61,7 +61,9 @@ Writes all tokens between <tokens> and </tokens> tags in XML.
 Functions inside Parser:
 
 Parser(tokenizer, outputFilename): Setup.
+
 parse(): Loop through all tokens and output them.
+
 writeToken(token): Helper to write one token .
 
 
