@@ -43,10 +43,7 @@ Parser is a class that:
 Takes a Tokenizer and an output filename.
 Opens the output file.
 Writes all tokens between <tokens> and </tokens> tags in XML.
-Each token looks like this in the output:
-<keyword> class </keyword>
-<identifier> Main </identifier>
-<symbol> { </symbol>
+
 Functions inside Parser:
 Parser(tokenizer, outputFilename): Setup.
 parse(): Loop through all tokens and output them.
