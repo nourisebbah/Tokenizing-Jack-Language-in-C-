@@ -52,23 +52,6 @@ Parser(tokenizer, outputFilename): Setup.
 parse(): Loop through all tokens and output them.
 writeToken(token): Helper to write one token .
 
-# Example :
-
-Input:
-class Main {
-    function void main() {
-        var int x;
-        let x = 2;
-        return;
-    }
-}
-Output (Main.xml):
-<tokens>
-<keyword> class </keyword>
-<identifier> Main </identifier>
-<symbol> { </symbol>
-...
-</tokens>
 
 # This is just the Tokenizer + basic Parser part!
  Later, the parser will become smarter to (not just print tokens).
